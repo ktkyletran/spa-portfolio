@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="593" height="22" viewBox="0 0 593 22">
+  <defs>
+    <filter id="Hero-line" x="0" y="0" width="593" height="22" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.549"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Hero-line)">
+    <path id="Hero-line-2" data-name="Hero-line" d="M2,0H573a2,2,0,0,1,0,4H2A2,2,0,0,1,2,0Z" transform="translate(9 6)" fill="rgba(255,255,255,0.15)"/>
+  </g>
+</svg>

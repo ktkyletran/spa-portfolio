@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1940" height="609.52" viewBox="0 0 1940 609.52">
+  <defs>
+    <filter id="Path_25" x="0" y="0" width="1940" height="609.52" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.302" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Stack-Design" transform="translate(10 -2275.036)">
+    <g id="Ellipse_2" data-name="Ellipse 2" transform="translate(810 2307)" fill="#fff" stroke="rgba(0,0,0,0.1)" stroke-width="5">
+      <circle cx="150" cy="150" r="150" stroke="none"/>
+      <circle cx="150" cy="150" r="147.5" fill="none"/>
+    </g>
+    <g data-type="innerShadowGroup">
+      <path id="Path_25-2" data-name="Path 25" d="M1938.244,2106.213s-602.256,145.381-970,147.276-970-147.276-970-147.276v609.52s491.144-118.7,970-122.487c478.839-3.791,970,122.487,970,122.487Z" transform="translate(-8.244 168.823)" fill="#7acfd6"/>
+      <g transform="matrix(1, 0, 0, 1, -10, 2275.04)" filter="url(#Path_25)">
+        <path id="Path_25-3" data-name="Path 25" d="M1938.244,2106.213s-602.256,145.381-970,147.276-970-147.276-970-147.276v609.52s491.144-118.7,970-122.487c478.839-3.791,970,122.487,970,122.487Z" transform="translate(1.76 -2106.21)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

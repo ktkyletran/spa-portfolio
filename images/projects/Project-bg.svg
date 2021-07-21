@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="2235" viewBox="0 0 1920 2235">
+  <defs>
+    <filter id="Project-bg" x="0" y="0" width="1920" height="2235" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.251" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <path id="Project-bg-2" data-name="Project-bg" d="M1928.244,2020.733s-592.256,233.1-960,235-960-235-960-235v2235s72.138-169.958,551.005-173.75c478.836-3.792,1368.995,173.75,1368.995,173.75Z" transform="translate(-8.244 -2020.733)" fill="#e0474c"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Project-bg)">
+      <path id="Project-bg-3" data-name="Project-bg" d="M1928.244,2020.733s-592.256,233.1-960,235-960-235-960-235v2235s72.138-169.958,551.005-173.75c478.836-3.792,1368.995,173.75,1368.995,173.75Z" transform="translate(-8.24 -2020.73)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
