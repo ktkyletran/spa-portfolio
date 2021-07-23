@@ -8,22 +8,22 @@
   <title>kyle the koder</title>
 </head>
 <body>
-
-  <div class="nav-container">
-    <div class="nav-social">
+  <div class="hero-container">
+    <nav class="nav-social">
       <ul>
         <li><a href="mailto:ktkyletran@gmail.com?subject=Hi,%20from%20you're%20portfolio!">Contact Me</a></li>
-        <li><a href="https://github.com/ktkyletran" target="_blank"><img src="./images/hero/github-hero.svg" alt="github link"></a></li>
-        <li><a href="https://www.linkedin.com/in/kyle-tran-89245b1b9/" target="_blank"><img src="./images/hero/linkedin-hero.svg" alt="linkedin link"></a></li>
+        <li id="hidden-mobile"><a href="https://github.com/ktkyletran" target="_blank"><img src="./images/hero/github-hero.svg" alt="github link" id="gh-hero"></a></li>
+        <li id="hidden-mobile"><a href="https://www.linkedin.com/in/kyle-tran-89245b1b9/" target="_blank"><img src="./images/hero/linkedin-hero.svg" alt="linkedin link" id="li-hero"></a></li>
       </ul>
-    </div>
+    </nav>
 
-    <div class="hero">
+    <nav class="hero">
       <h4>hello,</h4>
       <h1>I'm Kyle Tran</h1>
-      <span><img src="./images/hero/hero-line.svg" alt="divider line"></span>
+      <span><img src="./images/hero/hero-line.svg" alt="divider line" id="line"></span>
       <h3>Web Developer</h3>
-      <img src="./images/hero/me.svg" alt="me">
+      <img src="./images/hero/me.svg" alt="me" id="me">
+      <img src="./images/hero/arrow.svg" alt="arrow" id="arrow">
     </div>
   </div>
 
@@ -31,15 +31,15 @@
     <div class="featured-text">
       <div class="inner transition2">
         <p class="subtitle">Featured Project</p>
-        <span><img src="./images/featured-project/fp-line.svg" alt="divider line"></span>
+        <span><img src="./images/featured-project/fp-line.svg" alt="divider line" id="featured-line"></span>
         <a href="" class="featured-title">Mind Managed</a>
 
         <p class="featured-desc">Mind Managed tracks a user's daily mood, prescription use, and journal entry so that the user can keep a detailed record to show their mental health professional.</p>
       </div>
     </div>
-    <img src="./images/featured-project/MindManaged.svg" alt="Featured project - Mind Managed">
+    <img src="./images/featured-project/MindManaged.svg" alt="Featured project - Mind Managed" id="featured-project">
   </section>
-
+  
   <section class="skills">
     <!-- <div class="stack-container">
       <img src="./images/stack/Stack-Design.svg" alt="stack background">
@@ -50,7 +50,7 @@
       <img src="./images/stack/React-logo.svg" alt="React">
       <img src="./images/stack/Nodejs-logo.svg" alt="Node">
     </div>
-
+    
     <div class="skills-container">
       <ul>
         <li class="transition2">
@@ -60,7 +60,7 @@
           <p class="skills-title">Fast</p>
           <p class="featured-desc skill-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, a.</p>
         </li>
-
+        
         <li class="transition2">
           <div class="icon-container skill-two">
             <img src="./images/stack/Collab-img.svg" alt="collaborative">
@@ -68,7 +68,7 @@
           <p class="skills-title">Collaborative</p>
           <p class="featured-desc skill-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, a.</p>
         </li>
-
+        
         <li class="transition2">
           <div class="icon-container skill-three">
             <img src="./images/stack/Stack.svg" alt="full stack">
@@ -79,39 +79,40 @@
       </ul>
     </div>
   </section>
-
+  
   <section class="portfolio">
     <div class="portfolio-containeer transition3">
       <div class="portfolio-text">
         <div class="inner">
           <p class="subtitle">Restaurant Finder App</p>
           <p class="featured-title">FoodFeed</p>
-
+          
           <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, soluta.</p>
         </div>
       </div>
       <a href="#"><img src="./images/projects/foodfeed.svg" alt="FoodFeed"></a>
     </div>
-
+    
     <div class="portfolio-containeer transition3">
       <div class="portfolio-text">
         <div class="inner">
           <p class="subtitle">Social Media App</p>
           <p class="featured-title">Premiere Show</p>
-
+          
           <p class="featured-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, soluta.</p>
         </div>
       </div>
       <a href="#"><img src="./images/projects/premiereshow.svg" alt="FoodFeed"></a>
     </div>
   </section>
-
+  
   <footer class="footer-container transition3">
     <h3>You've made it this far..</h3>
     <h1>Now, let's talk</h1>
-
+    
     <button class="footer-btn"><a href="https://github.com/ktkyletran" target="_blank">Email</a></button>
     <button class="footer-btn"><a href="#" download>Resume</a></button>
   </footer>
+
 </body>
 </html>

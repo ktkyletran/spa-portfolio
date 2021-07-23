@@ -1,1 +1,145 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+body {
+  height: 100vh;
+  margin: 0%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.hero-container {
+  background: #101010;
+  color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+  color: white;
+}
+
+.hero-container a {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-container .nav-social {
+  float: right;
+  opacity: 70%;
+}
+
+.hero-container .nav-social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-container .nav-social ul a {
+  font-size: 0.75em;
+}
+
+.hero-container .nav-social #hidden-mobile {
+  display: none;
+}
+
+.hero-container #arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 50%;
+  margin: -25% 0 0 90%;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  padding: 2em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero h1, .hero h4, .hero h3 {
+  font-weight: 400;
+  line-height: 0em;
+}
+
+.hero h4 {
+  font-size: 0.6em;
+}
+
+.hero h3 {
+  font-size: 1em;
+}
+
+.hero h1 {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.hero #line {
+  margin: 5px;
+  margin-left: -0.5em;
+}
+
+.hero #me {
+  display: none;
+}
+
+section {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+section .featured {
+  position: relative;
+}
+
+section .subtitle {
+  color: #E0474C;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-size: 0.65em;
+  margin: 0.25em auto;
+}
+
+section .featured-title {
+  color: black;
+  font-size: 1.50em;
+}
+
+section .featured-desc {
+  color: #252525;
+  font-size: 0.75em;
+  font-weight: 500;
+  line-height: 1.8em;
+  margin-bottom: 3em;
+}
+
+section #featured-line {
+  margin: 0.75em auto;
+}
+
+section #featured-project {
+  -webkit-box-shadow: 0 0 10px 2px black;
+          box-shadow: 0 0 10px 2px black;
+}
+/*# sourceMappingURL=main.css.map */
