@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 body {
-  height: 100vh;
+  height: auto;
   margin: 0%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  background-color: #F3F3F3;
 }
 
 ul {
@@ -47,7 +48,7 @@ img {
 }
 
 .hero-container .nav-social ul a {
-  font-size: 0.75em;
+  font-size: 0.65em;
 }
 
 .hero-container .nav-social #hidden-mobile {
@@ -69,7 +70,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   text-align: left;
-  padding: 2em;
+  padding: 1em;
+  padding-bottom: 4em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -138,8 +140,117 @@ section #featured-line {
   margin: 0.75em auto;
 }
 
-section #featured-project {
-  -webkit-box-shadow: 0 0 10px 2px black;
-          box-shadow: 0 0 10px 2px black;
+.stack {
+  background-color: #7ACFD6;
+}
+
+.stack .stack-title {
+  position: relative;
+}
+
+.stack .stack-title p {
+  font-weight: bold;
+  font-size: 1.25em;
+  margin-top: -30px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.stack .stack-title::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: rgba(0, 0, 0, 0.15) solid 5px;
+  background-color: white;
+  top: -50px;
+  left: 30%;
+  z-index: -1;
+}
+
+.stack .stack-logos {
+  display: -ms-grid;
+  display: grid;
+  border-radius: 10px;
+  width: 100%;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
+.stack .stack-logos .col-left {
+  margin-right: 50%;
+  padding: 15px 10px;
+}
+
+.stack .stack-logos .col-right {
+  margin-left: 50%;
+  padding: 15px 10px;
+}
+
+.skills-container ul li {
+  padding: 1.5em;
+  margin-bottom: 1em;
+}
+
+.skills-container ul li .skills-title {
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+}
+
+.skills-container ul li .skills-desc {
+  font-size: 0.75em;
+  font-weight: 500;
+  line-height: 1.8em;
+  margin-top: -0.5em;
+  margin: -0.5em auto 1.5em auto;
+  width: 30ch;
+}
+
+.skills-container ul li img {
+  width: 25%;
+}
+
+.skills-container ul li .skill-one {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.skills-container ul li .skill-two {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.skills-container ul li .skill-three {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.portfolio {
+  background-color: #E0474C;
+}
+
+.portfolio .portfolio-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #F3F3F3;
+  text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.portfolio .portfolio-desc {
+  font-weight: 700;
+  font-size: 0.75em;
+  line-height: 1.8em;
+  color: #252525;
+}
+
+.portfolio p {
+  margin: 0.5em auto;
+}
+
+.portfolio .portfolio-container {
+  margin-bottom: 2em;
 }
 /*# sourceMappingURL=main.css.map */
