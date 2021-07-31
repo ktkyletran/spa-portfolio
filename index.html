@@ -33,14 +33,14 @@
               </a>
             </li>
           </ul>
-
         </div>
+        <p>Hover over or tap on the card to interact</p>
       </div>
     </div>
   </div>
 
   <section class="featured">
-    <div class="featured-text">
+    <div class="left">
       <div class="inner transition2">
         <p class="subtitle">Featured Project</p>
         <span><img src="./images/featured-project/fp-line.svg" alt="divider line" id="featured-line"></span>
@@ -49,16 +49,16 @@
         <p class="featured-desc">Mind Managed tracks a user's daily mood, prescription use, and journal entry so that the user can keep a detailed record to show their mental health professional.</p>
       </div>
     </div>
-    <a href="https://mind-managed.herokuapp.com/" target="_blank"><img src="./images/featured-project/MindManaged.svg" alt="Featured project - Mind Managed" id="featured-project"></a>
+    <a class="right" href="https://mind-managed.herokuapp.com/" target="_blank"><img src="./images/featured-project/MindManaged.svg" alt="Featured project - Mind Managed" id="featured-project"></a>
   </section>
 
   <section class="stack">
+    <div class="stack-title">
+      <!-- <div id="stack-line-top"></div> -->
+      <p>Stack</p>
+      <div id="stack-line-bottom"></div>
+    </div>
     <div class="stack-logos">
-      <div class="stack-title">
-        <!-- <div id="stack-line-top"></div> -->
-        <p>Stack</p>
-        <div id="stack-line-bottom"></div>
-      </div>
       <div class="col-left">
         <img src="./images/stack/MongoDB-logo.svg" alt="MongoDB">
       </div>
@@ -111,7 +111,7 @@
   
   <section class="portfolio">
     <div class="portfolio-container transition3">
-      <div class="portfolio-text">
+      <div class="left">
         <div class="inner">
           <p class="subtitle">Restaurant Finder App</p>
           <p class="portfolio-title">FoodFeed</p>
@@ -119,11 +119,11 @@
           <p class="portfolio-desc">Web app for users that want to search for a place to eat whether it's local or in another city.</p>
         </div>
       </div>
-      <a href="https://ktkyletran.github.io/FoodFeed/" target="_blank"><img src="./images/projects/foodfeed.svg" alt="FoodFeed"></a>
+      <a class="right" href="https://ktkyletran.github.io/FoodFeed/" target="_blank"><img src="./images/projects/foodfeed.svg" alt="FoodFeed"></a>
     </div>
     
     <div class="portfolio-container transition3">
-      <div class="portfolio-text">
+      <div class="right">
         <div class="inner">
           <p class="subtitle">Social Media App</p>
           <p class="portfolio-title">Premiere Show</p>
@@ -131,32 +131,39 @@
           <p class="portfolio-desc">Web app that allows a user to create a screening discussion board to share their personal projects with friends.</p>
         </div>
       </div>
-      <a href="https://hidden-reaches-62484.herokuapp.com/login" target="_blank"><img src="./images/projects/premiereshow.svg" alt="FoodFeed"></a>
+      <a class="right" href="https://hidden-reaches-62484.herokuapp.com/login" target="_blank"><img src="./images/projects/premiereshow.svg" alt="FoodFeed"></a>
     </div>
   </section>
   
-  <footer class="footer-container transition3">
-    <h3>You've made it this far..</h3>
-    <h1>Now, let's talk</h1>
-
-    <button class="button footer-btn">
-      <a href="#" download>Resume</a>
-      <span></span>
-    </button>
-    <button class="button footer-btn">
-      <span></span>
-      <a href="https://github.com/ktkyletran" target="_blank">Email</a>
-    </button>
-  </footer>
+  <section>
+    <footer class="footer-container transition3">
+      <div class="footer-text">
+        <h3>You've made it this far..</h3>
+        <h1>Now, let's talk</h1>
+      </div>
+      
+      <div class="footer-buttons">
+        <button class="button footer-btn">
+          <span></span>
+          <a href="https://github.com/ktkyletran" target="_blank">Email</a>
+        </button>
+        <button class="button footer-btn">
+          <a href="#" download>Resume</a>
+          <span></span>
+        </button>
+      </div>
+    </footer>
+  </section>
 
   <script type="text/javascript" src="./js/vanilla-tilt.js"></script>
   <script>
     VanillaTilt.init(document.querySelector(".card"), {
-		  max: 25,
-		  speed: 400,
+      max: 25,
+      speed: 400,
       glare: true,
-      "max-glare": 0.5
-	});
+      "max-glare": 0.5,
+      scale: 1.1
+    });
   </script>
 </body>
 </html>
