@@ -2,4 +2,4 @@
 Kyle's Portfolio
 
 ## Deployed Link
-kyletran.co
+<a href="kyletran.co">kyletran.co</a>
