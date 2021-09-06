@@ -2,4 +2,4 @@
 Kyle's Portfolio
 
 ## Deployed Link
-https://ktkyletran.github.io/spa-portfolio/
+kyletran.co
