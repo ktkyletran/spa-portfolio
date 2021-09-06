@@ -186,11 +186,11 @@ section {
   text-align: center;
 }
 
-.featured {
+#featured {
   position: relative;
 }
 
-.featured .subtitle {
+#featured .subtitle {
   color: #E0474C;
   text-transform: uppercase;
   font-weight: 600;
@@ -200,12 +200,12 @@ section {
   font-family: 'Rubik';
 }
 
-.featured .featured-title {
+#featured .featured-title {
   color: black;
   font-size: 1.5em;
 }
 
-.featured .featured-desc {
+#featured .featured-desc {
   color: #252525;
   font-size: 0.85em;
   font-weight: 500;
@@ -214,16 +214,16 @@ section {
   width: 300px;
 }
 
-.featured #featured-line {
+#featured #featured-line {
   margin: 1em auto;
 }
 
-.featured img {
+#featured img {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
-.featured img:hover {
+#featured img:hover {
   -webkit-transform: translateY(-2%);
           transform: translateY(-2%);
 }
@@ -374,13 +374,13 @@ section {
   margin: 0 auto;
 }
 
-.portfolio {
+#portfolio {
   background-color: #F84950;
   -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5) inset;
           box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5) inset;
 }
 
-.portfolio .subtitle {
+#portfolio .subtitle {
   color: #fffb2a;
   text-shadow: 1px 2px 1px black;
   font-weight: 600;
@@ -389,14 +389,14 @@ section {
   font-size: .75em;
 }
 
-.portfolio .portfolio-title {
+#portfolio .portfolio-title {
   font-weight: bold;
   font-size: 2em;
   color: white;
   text-shadow: 1px 2px 1px black;
 }
 
-.portfolio .portfolio-desc {
+#portfolio .portfolio-desc {
   padding: 1.5em;
   font-weight: 500;
   font-size: 0.85em;
@@ -405,22 +405,22 @@ section {
   width: 25ch;
 }
 
-.portfolio p {
+#portfolio p {
   margin: 0.5em auto;
 }
 
-.portfolio .portfolio-container {
+#portfolio .portfolio-container {
   padding: 2em;
 }
 
-.portfolio img {
+#portfolio img {
   position: relative;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   width: 300px;
 }
 
-.portfolio img:hover {
+#portfolio img:hover {
   -webkit-transform: scale(105%);
           transform: scale(105%);
 }
@@ -524,10 +524,10 @@ footer {
   .hero-container .container .card a {
     font-size: 2em;
   }
-  .featured .featured-desc {
+  #featured .featured-desc {
     width: 400px;
   }
-  .portfolio img {
+  #portfolio img {
     width: 400px;
   }
   .stack .stack-logos .col-left {
@@ -553,8 +553,8 @@ footer {
   .skills .skills-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (auto)[1];
-        grid-template-columns: repeat(1, auto);
+    /* -ms-grid-columns: (auto)[1];
+        grid-template-columns: repeat(1, auto); */
   }
   .skills .skills-container ul li .skills-title {
     font-size: 2em;
@@ -594,30 +594,30 @@ footer {
   section {
     padding: 4em;
   }
-  .featured, .portfolio {
+  #featured, #portfolio {
     text-align: left;
   }
-  .featured .portfolio-desc, .portfolio .portfolio-desc {
+  #featured .portfolio-desc, #portfolio .portfolio-desc {
     line-height: 1.8em;
     font-size: 1em;
     padding: 0;
     width: 350px;
   }
-  .featured .portfolio-title, .portfolio .portfolio-title {
+  #featured .portfolio-title, #portfolio .portfolio-title {
     font-size: 2em;
   }
-  .featured .featured-title, .portfolio .featured-title {
+  #featured .featured-title, #portfolio .featured-title {
     font-size: 2em;
   }
-  .featured .featured-desc, .portfolio .featured-desc {
+  #featured .featured-desc, #portfolio .featured-desc {
     width: 500px;
     margin-left: 0;
     font-size: 1em;
   }
-  .portfolio img {
+  #portfolio img {
     width: 75%;
   }
-  .featured, .portfolio .portfolio-container {
+  #featured, #portfolio .portfolio-container {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 50% auto;
